@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camino de Santiago - Servicio al Caminante</title>
+</head>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ #portada{
+     background: url(img/chica.jpg);
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+ }
+header{
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid blue; */
+    background-color: rgba(255,255,255,0.60);
+}
+nav{
+   display: inline-block;
+   vertical-align: top;
+   height: 40px;
+   width: 70%;
+   padding-top: 25px;
+   text-align: center;
+}
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    color: #707070;
+}
+#logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 65px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#telefono{
+    /* margin-left: 180px; */
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 75px;
+}
+#telefono img{
+    height: 50%;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+#logo img{
+    height: 100%;
+}
+#telefono img, #telefono b{
+    display: inline-block;
+    vertical-align: top;
+}
+#telefono b{
+padding-top: 25px;
+}
+
+.contenido{
+    width: 100%;
+    height: 80%;
+    padding-top: 10%;
+}
+.cajaIzq{
+    width: 65%;
+    height: 80%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    position: relative;
+}
+
+.cajaDer{
+    width: 25%;
+    height: 80%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+
+}
+
+.titulo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    width: 225px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.60);
+    border-radius: 20px;
+    color: #707070;
+}
+
+
+/* Cajas Servicios */
+
+.servicios{
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.60);
+    border-radius: 20px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.servicios img{
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.servicios b{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    width: 100px;
+}
+
+
+
+</style>
+<body>
+    <section id="portada">
+        <header>
+            <div id="logo">
+                <img src="icons/logosantiago.png" alt="">
+            </div>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Precios</a>
+                <a href="#">Sobre Nosotros</a>
+            
+            </nav>
+            <div id="telefono">
+                <img src="icons/logowhatsapp.png" alt="">
+                <b>555 555 555</b>
+
+            </div>
+        </header>
+
+    <div class="contenido">
+
+        <div class="cajaIzq">
+            <div class="titulo">
+                <h1>Disfruta del Camino sin sobresaltos y con total seguridad</h1>
+            </div>
+        </div>
+
+        
+
+        <div class="cajaDer">
+            <div class="servicios">
+                <img src="icons/mochila.png" alt="">
+                <b>Transporte de mochilas</b>
+            </div>
+            <div class="servicios">
+                <img src="icons/telefono.png" alt="">
+                <b>Teléfono de Emergencias</b>
+            </div>
+            <div class="servicios">
+                <img src="icons/movil.png" alt="">
+                <b>APP de Geolocalización</b>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    </section>
+    <section id="precios">
+
+
+
+    </section>
+
+
+</body>
+</html>
